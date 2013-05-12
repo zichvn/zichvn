@@ -176,7 +176,7 @@ if (defined('ENVIRONMENT'))
 	define('SYSDIR', trim(strrchr(trim(BASEPATH, '/'), '/'), '/'));
 
         define('LANGCODE', '(en|fr|vi|de|cn|jp)');
-        define('SYSPAGE', '(contact|gallery|news|shop|pages|services|about|video)');
+        define('SYSPAGE', '(contact|gallery|news|shop|pages|services|about)');
         define('SYSLANG', 2);
         define('SYSLANGCODE', "vi");
         define('MAINSITE', "localhost");
